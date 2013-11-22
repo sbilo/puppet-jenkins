@@ -29,6 +29,6 @@ define jenkins::instance (
         groupid    => 'org.jenkins-ci.main',
         artifactid => 'jenkins-war',
         version    => $version,
-        repos      => ['http://maven.jenkins-ci.org/content/repositories/releases'],
+        repos      => ['http://repo.jenkins-ci.org/releases'],
     }
 }

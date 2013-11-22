@@ -22,7 +22,7 @@ To customize the settings of the tomcat installation create your own instance of
     tomcat::instance { 'jenkins_2': 
         java_version => 'oracle_1_7_0',
         max_heap     => '4096m',
-    } ->
+    }
     
     jenkins::instance { 'jenkins_2': 
         version => '1.540',
